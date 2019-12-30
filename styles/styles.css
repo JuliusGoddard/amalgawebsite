@@ -1,0 +1,88 @@
+.splash {
+  height: 600px;
+  line-height: 600px;
+  width: 100%;
+  background-image: url("/images/splash.jpg");
+  background-size: cover;
+  background-repeat: none;
+  text-align: center;
+  color: white;
+}
+.splash span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.splash span h1 {
+  font-size: 70px;
+}
+
+#explanations {
+  height: 200px;
+  margin: 50px;
+  color: dimgrey;
+  font-size: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr) [2];
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  background-color: white;
+}
+#explanations h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#photogrid {
+  height: 400px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  display: -ms-grid;
+  display: grid;
+  line-height: 400px;
+  -ms-grid-columns: (1fr) [2];
+  grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: () [2];
+  grid-template-rows: repeat(2);
+  width: 100%;
+  text-align: center;
+}
+#photogrid:nth-child(1) {
+  background-image: url(/images/biotechnology.jpg);
+  background-size: cover;
+  background-repeat: none;
+  color: green;
+}
+#photogrid:nth-child(2) {
+  background-image: url(/images/electronics.jpg);
+  background-size: cover;
+  background-repeat: none;
+}
+#photogrid:nth-child(3) {
+  background-image: url(/images/innovation.jpg);
+  background-size: cover;
+  background-repeat: none;
+  color: white;
+}
+#photogrid:nth-child(4) {
+  background-image: url(/images/medicine.jpg);
+  background-size: cover;
+  background-repeat: none;
+  color: blue;
+}
+#photogrid span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.footer {
+  background-color: dimgray;
+  font-size: 30px;
+  margin-top: 400px;
+  color: white;
+  text-align: center;
+  height: 200px;
+}
